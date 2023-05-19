@@ -1,0 +1,20 @@
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
+
+######################
+# Jekyll
+######################
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
