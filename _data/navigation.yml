@@ -1,0 +1,6 @@
+main:
+  - title: "Eventi"
+    url: /news/
+    description: "Eventi da non perdere"
+  - title: "Contatti"
+    url: /contact/
