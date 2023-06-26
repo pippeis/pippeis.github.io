@@ -57,13 +57,20 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages"]
+include: ["_pages", "_courses"]
 
 defaults:
   # _pages
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _courses
+  - scope:
+      path: "courses"
+      type: courses
     values:
       layout: single
       author_profile: true
