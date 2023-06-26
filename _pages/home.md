@@ -35,6 +35,9 @@ feature_row-3:
     btn_class: "btn--inverse"
 ---
 
+<div class="home-container">
+    <p>sone text</p>
+</div>
 <div class="feature-row-container">
     {% include feature_row type="left" %}
 
