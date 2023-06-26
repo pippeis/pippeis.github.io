@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: "/contact/"
+permalink: "/contact"
 ---
 
 <p>Contact page</p>

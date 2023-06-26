@@ -1,6 +1,8 @@
 main:
   - title: "Eventi"
-    url: /news/
+    url: /news
     description: "Eventi da non perdere"
   - title: "Contatti"
-    url: /contact/
+    url: /contact
+  - title: "Chi Siamo"
+    url: /about
