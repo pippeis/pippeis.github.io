@@ -22,3 +22,17 @@
 .feature-row-container > div:nth-child(odd) {
   background-color: yellow;
 }
+
+.tab-container {
+  display: flex;
+}
+
+.tab {
+  display: flex;
+  padding: 50px;
+  border: 1px solid #0b0b0b;
+}
+
+.tab > .active {
+  background-color: transparent;
+}
