@@ -6,6 +6,8 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+$text-color: #0f477e;
+
 .home-container {
   background-color: red;
 }
@@ -23,16 +25,33 @@
   background-color: yellow;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .tab-container {
   display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
 }
 
 .tab {
   display: flex;
-  padding: 50px;
-  border: 1px solid #0b0b0b;
+  padding: 20px 50px;
+  border: 1px solid #dee2e6;
 }
 
-.tab > .active {
-  background-color: transparent;
+.tab.active {
+  background-color: #9bffff;
+}
+
+.tab.active > a {
+  color: $text-color;
+}
+
+.tab-content {
+  background-color: #9bffff;
+  padding: 20px;
 }

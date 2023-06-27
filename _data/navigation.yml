@@ -1,4 +1,10 @@
 main:
+  - title: "Parent course 1"
+    url: /courses/parent_course_1/course_1
+  - title: "Parent course 2"
+    url: /courses/parent_course_2/course_4
+  - title: "Parent course 3"
+    url: /courses/parent_course_3/course_6
   - title: "Eventi"
     url: /news
     description: "Eventi da non perdere"

@@ -2,20 +2,20 @@
 layout: archive
 ---
 
-<div>
+<div class="flex-container">
     <p>{{page.description}}</p>
-    <ul class="tab-container">
+    <div class="tab-container">
       {% for item in page.items %}
-        <li class="tab">
-            {% if item.active == true %}
-                <a class="active" aria-current="page" href="/courses/{{page.parentPath}}/{{item.id}}">{{item.title}}</a>
-            {% else %}
+        {% if item.active == true %}
+            <span class="tab active">
                 <a aria-current="page" href="/courses/{{page.parentPath}}/{{item.id}}">{{item.title}}</a>
-            {% endif %}
-        </li>
+            </span>
+        {% else %}
+            <span class="tab">
+                <a aria-current="page" href="/courses/{{page.parentPath}}/{{item.id}}">{{item.title}}</a>
+            </span>
+        {% endif %}
       {% endfor %}
-    </ul>
-    <div>
-        <p>{{page.courseDescription}}</p>
     </div>
+    <div class="tab-content">{{page.courseDescription}}</div>
 </div>
