@@ -13,7 +13,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/courses/course_1"
+    url: "/courses/parent_course_1/course_1"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row-2:
@@ -22,7 +22,7 @@ feature_row-2:
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/courses/course_2"
+    url: "/courses/parent_course_2/course_4"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row-3:
@@ -30,18 +30,16 @@ feature_row-3:
     id: "row3"
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/courses/course_3"
+    url: "/courses/parent_course_3/course_6"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
 
 <div class="home-container">
-    <p>sone text</p>
+    <p>some text</p>
 </div>
 <div class="feature-row-container">
     {% include feature_row type="left" %}
-
     {% include feature_row id="feature_row-2" type="right" %}
-    
     {% include feature_row id="feature_row-3" type="left" %}
 </div>
