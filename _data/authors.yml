@@ -1,5 +1,5 @@
-Billy Rick:
-  name        : "Billy Rick"
+Caterina:
+  name        : "Caterina Grignolio"
   bio         : "What do you want, jewels? I am a very extravagant man."
   avatar      : "/assets/images/avatar_1.png"
   links:
@@ -13,8 +13,8 @@ Billy Rick:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/extravagantman"
 
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
+Cristina:
+  name        : "Cristina"
   bio         : "I ordered what?"
   avatar      : "/assets/images/avatar_2.png"
   links:

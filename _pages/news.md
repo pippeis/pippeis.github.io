@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: posts #categories 
 permalink: "/news/"
 ---
 
