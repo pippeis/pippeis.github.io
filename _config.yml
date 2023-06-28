@@ -62,6 +62,13 @@ plugins:
 include: ["_pages", "_courses"]
 
 defaults:
+# _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
   # _pages
   - scope:
       path: ""
