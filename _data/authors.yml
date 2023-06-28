@@ -1,7 +1,7 @@
 Billy Rick:
   name        : "Billy Rick"
   bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/avatar-1.jpg"
+  avatar      : "/assets/images/avatar_1.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -16,7 +16,7 @@ Billy Rick:
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"
   bio         : "I ordered what?"
-  avatar      : "/assets/images/avatar-1.jpg"
+  avatar      : "/assets/images/avatar_2.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
