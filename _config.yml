@@ -59,10 +59,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ["_pages", "_courses"]
+include: ["_pages", "_courses", "_gifts"]
 
 defaults:
-# _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -80,6 +80,13 @@ defaults:
   - scope:
       path: "courses"
       type: courses
+    values:
+      layout: single
+      author_profile: true
+  # _gifts
+  - scope:
+      path: "gifts"
+      type: gifts
     values:
       layout: single
       author_profile: true

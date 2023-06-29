@@ -5,6 +5,8 @@ main:
     url: /courses/parent_course_2/course_4
   - title: "Parent course 3"
     url: /courses/parent_course_3/course_6
+  - title: "Fatti un regalo"
+    url: /gifts
   - title: "Eventi"
     url: /news
     description: "Eventi da non perdere"
