@@ -35,8 +35,10 @@ github_username:  jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+atom_feed:
+  hide: true
+
 plugins:
-  - jekyll-feed
   - jekyll-include-cache
 
 # Exclude from processing.
