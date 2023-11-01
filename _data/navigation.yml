@@ -1,14 +1,20 @@
 main:
-  - title: "Parent course 1"
-    url: /courses/parent_course_1/course_1
-  - title: "Parent course 2"
-    url: /courses/parent_course_2/course_4
-  - title: "Parent course 3"
-    url: /courses/parent_course_3/course_6
-  - title: "Eventi"
+  - title: Gravidanza
+    url: /courses/parent_course_1/course_1_1
+  - title: Post Parto
+    url: /courses/parent_course_2/course_2_1
+  - title: Lutto Perinatale
+    url: /courses/parent_course_3/course_3_1
+  - title: Infertilità, Sterilità e PMA
+    url: /courses/parent_course_4/course_4_1
+  - title: Genitorialità
+    url: /courses/parent_course_5/course_5_1
+  - title: Sostegno e Psicoretapia
+    url: /courses/parent_course_6/course_6_1
+  - title: Eventi
     url: /news
-    description: "Eventi da non perdere"
-  - title: "Contatti"
+    description: Eventi da non perdere
+  - title: Contatti
     url: /contact
-  - title: "Chi Siamo"
+  - title: Chi Siamo
     url: /about

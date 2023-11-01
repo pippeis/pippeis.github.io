@@ -1,21 +1,21 @@
-- id: course_1
-  title: "Corso 1"
+- id: course_1_1
+  title: Corso 1
   parent: parent_course_1
-- id: course_2
-  title: "Corso 2"
-  parent: parent_course_1
-- id: course_3
-  title: "Corso 3"
-  parent: parent_course_1
-- id: course_4
-  title: "Corso 4"
+- id: course_2_1
+  title: Corso 2
   parent: parent_course_2
-- id: course_5
-  title: "Corso 5"
-  parent: parent_course_2
-- id: course_6
-  title: "Corso 6"
+- id: course_3_1
+  title: Corso 3
   parent: parent_course_3
-- id: course_7
-  title: "Corso 7"
-  parent: parent_course_3
+- id: course_4_1
+  title: Corso 4
+  parent: parent_course_4
+- id: course_5_1
+  title: Corso 5
+  parent: parent_course_5
+- id: course_6_1
+  title: Corso 6
+  parent: parent_course_6
+- id: course_1_2
+  title: Corso 7
+  parent: parent_course_1
