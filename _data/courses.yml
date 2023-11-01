@@ -1,5 +1,26 @@
 - id: course_1_1
-  title: Corso 1
+  title: Corso Preparto
+  parent: parent_course_1
+- id: course_1_2
+  title: Cerchi di Condivisione
+  parent: parent_course_1
+- id: course_1_3
+  title: Yoga in gravidanza
+  parent: parent_course_1
+- id: course_1_4
+  title: Massaggi in gravidanza
+  parent: parent_course_1
+- id: course_1_5
+  title: Sostegno e psicoterapia in gravidanza
+  parent: parent_course_1
+- id: course_1_6
+  title: Accompagnamento con la doula in gravidanza
+  parent: parent_course_1
+- id: course_1_7
+  title: Accompagnamento con l’ostetrica in gravidanza
+  parent: parent_course_1
+- id: course_1_8
+  title: Servizi a domicilio
   parent: parent_course_1
 - id: course_2_1
   title: Corso 2
@@ -16,6 +37,3 @@
 - id: course_6_1
   title: Corso 6
   parent: parent_course_6
-- id: course_1_2
-  title: Corso 7
-  parent: parent_course_1
