@@ -8,7 +8,12 @@
 
 $text-color: #0f477e;
 
-// main.css customizations
+// REMOVEME: hide menu
+.greedy-nav__toggle, .visible-links {
+  display: none !important;
+}
+
+  // main.css customizations
 .page__hero--overlay .page__title { font-size: 1.953em; }
 
 @media (min-width: 37.5em) {
