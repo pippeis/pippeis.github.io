@@ -8,8 +8,47 @@
 
 $text-color: #0f477e;
 
+// main.css customizations
+.page__hero--overlay .page__title { font-size: 1.953em; }
+
+@media (min-width: 37.5em) {
+  .page__hero--overlay .page__title { font-size: 3em; }
+}
+
+@media (max-width: 37.5em) {
+  .feature__wrapper {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 68.75em) {
+  .page__hero--overlay .page__title { font-size: 6em; }
+}
+
+@media (min-width: 80em) {
+  .page__hero--overlay { padding: 6em 0; }
+}
+
+.wrapper > h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+  margin: 0.5em 0;
+}
+
+.site-title {
+  font-family: serif;
+  font-style: italic;
+}
+
+// custom classes
 .home-container {
-  background-color: red;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.home-container > p {
+  margin: 0;
 }
 
 .feature-row-container > div {
@@ -22,7 +61,7 @@ $text-color: #0f477e;
 }
 
 .feature-row-container > div:nth-child(odd) {
-  background-color: yellow;
+  background-color: #e9dcbe;
 }
 
 .flex-container {
@@ -54,4 +93,43 @@ $text-color: #0f477e;
 .tab-content {
   background-color: #9bffff;
   padding: 20px;
+}
+
+@media (min-width: 37.5em) {
+  .footer {
+    display: flex !important;
+    margin-bottom: 1em;
+  }
+
+  .footer > div:first-child {
+    padding-right: 1em;
+  }
+
+  .footer > div:last-child {
+    padding-left: 1em;
+  }
+}
+
+.footer {
+  display: block;
+}
+
+.footer > div {
+  padding: 0;
+}
+
+.footer h3 {
+  margin-top: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer span {
+  font-style: italic;
+}
+
+.footer > div:last-child {
+  margin: 1em 0;
 }
